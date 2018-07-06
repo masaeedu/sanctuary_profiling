@@ -1,0 +1,16 @@
+{
+  "name": "sanctuary_profiling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "data": "wget -O users.json https://raw.githubusercontent.com/danielo515/nodejs-benchmarks/master/src/fake-data/users.json",
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "sanctuary": "^0.15.0"
+  },
+  "devDependencies": {
+    "shx": "^0.3.1"
+  }
+}
